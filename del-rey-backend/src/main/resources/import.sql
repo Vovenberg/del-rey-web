@@ -1,0 +1,1 @@
+--INSERT INTO client VALUES ('3c869df8-39ce-48d7-9148-5852cb01b886', 'vldmr__', '89276558873', 'Vladimir', 'Kildyushev');
