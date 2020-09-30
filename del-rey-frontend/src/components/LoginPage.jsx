@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import React from 'react';
-import { authService } from "../service/authentication.service";
 import { connect } from "react-redux";
 
 class LoginPage extends React.Component {
@@ -61,8 +60,8 @@ function mapState(state) {
 }
 
 const actionCreators = {
-  login: authService.login,
-  logout: authService.logout
+  login: "",
+  logout: ""
 };
 
 const connectedLoginPage = connect(mapState, actionCreators)(LoginPage);
